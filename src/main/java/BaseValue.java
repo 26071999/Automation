@@ -15,6 +15,7 @@ public class BaseValue {
         value.put('G',16);
         String input=sc.nextLine();
         getBaseValue(value,input);
+        System.out.println("Hello Prakash");
     }
 
     private static void getBaseValue(Map<Character, Integer> value, String input) {
